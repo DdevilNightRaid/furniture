@@ -1,5 +1,3 @@
-import Navbar from '@/components/Navbar/Navbar'
-import MaxWidthWrapper from '@/lib/MaxWidthWrapper'
 import React from 'react'
 
 const SiteLayout = ({

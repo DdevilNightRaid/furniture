@@ -18,7 +18,7 @@ const computedFields = {
   }
 export const Doc = defineDocumentType(() => ({
     name: "Doc",
-    filePathPattern: `complete-nextjs/**/*.mdx`,
+    filePathPattern: `blogs/**/*.mdx`,
     contentType: "mdx",
     fields: {
       title: {
