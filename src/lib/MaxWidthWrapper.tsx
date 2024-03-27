@@ -1,0 +1,22 @@
+
+import React from 'react'
+import { cn } from './utils';
+
+interface MaxWidthWrapperProps {
+  children: React.ReactNode;
+  className?: string;
+}
+const MaxWidthWrapper = ({
+  children,
+  className,
+}: MaxWidthWrapperProps) => {
+  return (
+    <div className={cn(
+      'w-full py-2 px-2.5 md:px-40 h-full',
+      className,
+    )}>
+      {children}
+    </div>
+  )
+}
+export default MaxWidthWrapper
