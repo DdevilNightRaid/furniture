@@ -6,10 +6,10 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <section className='flex flex-col md:flex-row gap-10 justify-between py-14 max-lg:pt-[3rem] max-xl:pt-[7rem] items-center md:items-start max-xl:items-center'>
+        <section className='flex flex-col md:flex-row gap-10 justify-between py-14 pt-[7rem] items-center md:items-center'>
             <div className='flex flex-col md:flex-row gap-20 w-full relative'>
                 <div className=' h-full relative flex flex-col gap-12'>
-                    <div className='max-xl:h-[30rem] relative w-[22rem] md:w-full'>
+                    <div className='h-[30rem] relative w-[22rem] md:w-full'>
                         <Image
                             src="/assets/hero/heroImg.png"
                             alt="Chair Image"
@@ -89,7 +89,7 @@ const Hero = () => {
                         </span>
                     </section>
                 </article>
-                <article className='flex flex-col md:hidden max-xl:flex justify-end rounded-lg relative pt-4 bg-muted'>
+                <article className='flex flex-col md:flex justify-end rounded-lg relative pt-4 bg-muted'>
                     <div className='h-[7rem] w-[11rem]' />
                     <Image
                         src={"/assets/hero/heroCardTwo.png"}
