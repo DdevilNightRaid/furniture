@@ -18,7 +18,7 @@ async function getDocFromParams(slug: string){
 const page = async ({ params }: PageProps) => {
     const doc = await getDocFromParams(params.slug)
     return (
-        <main className='flex flex-col gap-10'>
+        <main className='flex flex-col gap-10 px-10'>
             <header>
                 <h1 className="mt-2 scroll-m-20 text-4xl font-bold tracking-tight">{doc.title}</h1>
                 <p className="leading-7 [&:not(:first-child)]:mt-6">{doc.description}</p>
