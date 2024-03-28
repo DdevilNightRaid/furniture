@@ -17,7 +17,7 @@ const Hero = () => {
                             width={567}
                             className='hidden max-xl:block object-fit h-[27rem] w-[30rem]'
                         />
-                        <Image
+                        {/* <Image
                             src="/assets/hero/heroImg.png"
                             alt="Chair Image"
                             height={527}
@@ -30,7 +30,7 @@ const Hero = () => {
                             height={357}
                             width={327}
                             className='md:hidden object-fit h-[25rem]'
-                        />
+                        /> */}
                         <div className='hidden md:block absolute -bottom-10 h-[30rem] w-[30rem] -z-10'>
                             <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#A7F0BA" d="M59.5,-46.8C72.8,-30.8,76.3,-6.3,70.5,14.9C64.7,36.1,49.7,54,29.6,65C9.6,76,-15.4,80,-34.1,71C-52.8,61.9,-65.1,39.8,-70.3,16.2C-75.6,-7.4,-73.8,-32.4,-60.9,-48.3C-48,-64.2,-24,-71,-0.4,-70.6C23.1,-70.3,46.2,-62.8,59.5,-46.8Z" transform="translate(100 100)" />
