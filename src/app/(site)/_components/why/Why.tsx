@@ -6,9 +6,9 @@ import React from 'react'
 const Why = () => {
     return (
         <div className='flex justify-center md:justify-end items-center py-20 md:py-10 flex-wrap md:flex-nowrap'>
-            <article className='md:h-[22rem] md:mr-7 py-7 md:py-0'>
+            <article className='md:h-[22rem] md:mr-7 md:ml-2 max-xl:ml-0 py-7 md:py-0'>
                 <div>
-                    <h2 className='font-bold text-3xl max-w-xs'>Crafted  with excilent designed concept</h2>
+                    <h2 className='font-bold text-3xl max-w-xs'>Crafted  with excellent designed concept</h2>
                 </div>
                 <div className='flex gap-4 items-end font-medium text-lg'>
                     <span>Save Time and Money</span>

@@ -7,53 +7,53 @@ import React from 'react'
 const Best = () => {
     return (
         <MaxWidthWrapper>
-            <main className='py-20 flex flex-col md:flex-row gap-10 md:gap-0 items-center w-full justify-between'>
-                <section className='flex flex-col gap-20'>
-                    <div className='flex gap-20'>
+            <main className='py-20 flex flex-col md:flex-row gap-10 md:gap-10 max-xl:gap-0 items-center w-full justify-between'>
+                <section className='flex flex-col gap-20 md:gap-10 max-xl:gap-20'>
+                    <div className='flex gap-20 md:gap-10 max-xl:gap-20'>
                         <article className='flex flex-col gap-5'>
                             <div className='w-full flex justify-start'>
-                                <div className='rounded-full bg-green-100 h-20 w-20 flex items-center justify-center'>
-                                    <WalletCards className='h-8 w-8' />
+                                <div className='rounded-full bg-green-100 h-20 md:h-14 max-xl:h-20 w-20 md:w-14 max-xl:w-20 flex items-center justify-center'>
+                                    <WalletCards className='h-8 md:h-5 max-xl:h-8 w-8 md:w-5 max-xl:w-8' />
                                 </div>
                             </div>
                             <div className='max-w-sm'>
                                 <h3 className='text-lg font-semibold'>Easy payment all time</h3>
-                                <p>Easy cash, card and online payment facility for quick shopping.</p>
+                                <p className="md:text-sm max-xl:text-normal">Easy cash, card and online payment facility for quick shopping.</p>
                             </div>
                         </article>
                         <article className='flex flex-col gap-5'>
                             <div className='w-full flex justify-start'>
-                                <div className='rounded-full bg-green-100 h-20 w-20 flex items-center justify-center'>
-                                    <ShieldCheck className='h-8 w-8' />
+                                <div className='rounded-full bg-green-100 h-20 md:h-14 max-xl:h-20 w-20 md:w-14 max-xl:w-20 flex items-center justify-center'>
+                                    <ShieldCheck className='h-8 md:h-5 max-xl:h-8 w-8 md:w-5 max-xl:w-8' />
                                 </div>
                             </div>
                             <div className='max-w-sm'>
-                                <h3 className='text-lg font-semibold'>Warrenty policy</h3>
-                                <p>We proivde warrenty for all our products, so you can rest asured.</p>
+                                <h3 className='text-lg font-semibold'>Warranty policy</h3>
+                                <p className="md:text-sm max-xl:text-normal">We provide warranty for all our products, so you can rest assured.</p>
                             </div>
                         </article>
                     </div>
-                    <div className='flex gap-20'>
+                    <div className='flex gap-20 md:gap-10 max-xl:gap-20'>
                         <article className='flex flex-col gap-5'>
                             <div className='w-full flex justify-start'>
-                                <div className='rounded-full bg-green-100 h-20 w-20 flex items-center justify-center'>
-                                    <PackageCheck className='h-8 w-8' />
+                                <div className='rounded-full bg-green-100 h-20 md:h-14 max-xl:h-20 w-20 md:w-14 max-xl:w-20 flex items-center justify-center'>
+                                    <PackageCheck className='h-8 md:h-5 max-xl:h-8 w-8 md:w-5 max-xl:w-8' />
                                 </div>
                             </div>
                             <div className='max-w-sm'>
                                 <h3 className='text-lg font-semibold'>Quality Assured</h3>
-                                <p>Fully QA tested product built with latest technology.</p>
+                                <p className="md:text-sm max-xl:text-normal">Fully QA tested product built with latest technology.</p>
                             </div>
                         </article>
                         <article className='flex flex-col gap-5'>
                             <div className='w-full flex justify-start'>
-                                <div className='rounded-full bg-green-100 h-20 w-20 flex items-center justify-center'>
-                                    <Truck className='h-8 w-8' />
+                                <div className='rounded-full bg-green-100 h-20 md:h-14 max-xl:h-20 w-20 md:w-14 max-xl:w-20 flex items-center justify-center'>
+                                    <Truck className='h-8 md:h-5 max-xl:h-8 w-8 md:w-5 max-xl:w-8' />
                                 </div>
                             </div>
                             <div className='max-w-sm'>
                                 <h3 className='text-lg font-semibold'>Home Delivery</h3>
-                                <p>We provide home delivery service to your door step</p>
+                                <p className="md:text-sm max-xl:text-normal">We provide home delivery service to your door step</p>
                             </div>
                         </article>
                     </div>

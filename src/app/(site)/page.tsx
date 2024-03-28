@@ -9,7 +9,7 @@ import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
-    <main className="bg-[#fffbfb]">
+    <main className="bg-[#fefefe]">
       <MaxWidthWrapper className="bg-background w-full">
         <header>
           <Navbar />

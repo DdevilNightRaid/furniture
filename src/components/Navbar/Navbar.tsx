@@ -21,7 +21,7 @@ const Navbar = () => {
                         <Link href="/blogs">Blogs</Link>
                     </li>
                     <li>
-                        <Link href="#contact">Contact</Link>
+                        <Link href="/#contact">Contact</Link>
                     </li>
                     <li>
                         <Link href="/">
@@ -52,10 +52,10 @@ const Navbar = () => {
                                         <Link href="/">Blogs</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">Contact</Link>
+                                        <Link href="/#contact">Contact</Link>
                                     </li>
                                     <li>
-                                        <Link href="/">
+                                        <Link href="/#contact">
                                             <Cta
                                                 title="Book Now"
                                             />
